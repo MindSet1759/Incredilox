@@ -1,0 +1,924 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{background-color: white;
+    font-family:"poppins", 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    overflow-x: hidden;
+}
+
+td,th{
+  font-family:"poppins", 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  font-size: 14px;
+}
+th{
+  font-weight: 700;
+}
+
+.header-one{
+    display: flex;
+    flex-wrap: wrap;
+    
+    background-color: black;
+    color: white;
+    width: 100%;
+    height: 44px;
+    
+}
+
+.fa-grip-lines{
+  position: relative;
+  font-size: 36px;
+  left: -300px;
+  top: 30px;
+  visibility: hidden;
+  
+  
+}
+
+.arrow-one p{
+    font-size: 16px;
+    font-weight: 400;
+    color: white;
+    position: relative;
+   left: 900px;
+   top: -14px;
+}
+
+.fa-angle-right{
+    font-size: 14px;
+    font-weight: 300;
+    color: rgb(104, 101, 101);
+    position: relative;
+   left: 1270px;
+   top: -38px;
+}
+.fa-angle-left{
+    font-size: 14px;
+    font-weight: 300;
+    color: rgb(104, 101, 101);
+    position: relative;
+   left: 830px;
+   top: 10px;
+}
+.arrow-two{
+    position: relative;
+    right: 50px;
+}
+.fa-instagram{
+    position: relative;
+   left: 1550px;
+   top: 11px;
+   font-size: 21px;
+
+}
+
+.fa-tiktok{
+    position: relative;
+   left: 1555px;
+   top: 10px;
+   font-size: 19px;
+}
+
+.nav-bar{
+
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 200px;
+    
+    
+}
+.nav-link-one{     
+    
+    list-style: none;
+    display: flex;
+    margin: 25px;
+    flex-wrap: wrap;
+    gap: 25px;
+    font-size: 16px;
+    position: relative;
+    float: right;
+    left: -120px;
+    
+    }
+
+    .nav-link{     
+    
+        list-style: none;
+        display: flex;
+        margin: 25px;
+        flex-wrap: wrap;
+        gap: 25px;
+        font-size: 16px;
+        position: relative;
+        left: -120px;
+        }
+
+    .nav-link-one li a{
+        text-decoration: none;
+        color: black;
+        font-size: 20px;
+        position: relative;
+        left: 185px;
+        top: 10px;
+        font-weight: 300;
+    }
+
+    .nav-link li a{
+        text-decoration: none;
+        color: rgb(38, 36, 36);
+        font-size: 14px;
+        position: relative;
+        left: 28px;
+        top: 10px;
+        font-weight: 400;
+    }
+
+    .nav-link-one li .vl {
+        border-left: 1px solid rgb(163, 161, 161);
+        height:25px;
+        position: relative;
+        left: 185px;
+        top: 10px;
+       
+      }
+      .nav-link-one li a img{
+        height: 20px;
+        width: 20px;
+        border-radius: 50%;
+        position: relative;
+        left: 10px;
+        top: 2px;
+      }
+      .nav-link-one li a p{
+        font-size: 12px;
+        font-weight: 700;
+        position: relative;
+        top: 5px;
+       
+      }
+      .logo{
+        position: relative;
+        left: -285px;
+        top: 30px;
+        
+        
+      }
+
+
+      hr{
+        width: 100%;
+        
+        position: relative;
+        top: 20px;
+        border-top: 1px solid #d9d7d7
+      }
+
+      .section-one{
+        display: flex;
+        justify-content: center;
+        flex-wrap: wrap;
+        gap: 100px;
+        height: 560px;
+        width: 100%;
+        flex-direction: row-reverse;
+      }
+
+      .section-one img{
+        height: 550px;
+        width: 60%;
+        position: relative;
+       top: 18px;
+       left: 100px;
+       z-index: -1;
+       border: 0;
+      }
+      .info-one{
+        position: relative;
+        top: 90px;
+        left: 110px;
+      }
+
+      .info-one h2{
+        font-size: 48px;
+        font-size: 600;
+        line-height: 1.3;
+      }
+
+      .info-one h3{
+        font-size: 14px;
+        font-size: 400;
+        color: rgb(76, 76, 76);
+        
+      }
+
+      .info-one button{
+        font-size: 16px;
+        font-size: 400;
+        color: white;
+        background-color: black;
+        padding: 17px 28px 17px 28px;
+        border-radius: 10px;
+        border: 0;
+      }
+
+      .why{
+        font-size: 36px;
+        font-weight: 600;
+        text-align: center;
+        position: relative;
+        top: 80px;
+      }
+
+      .icons{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        align-content: center;
+        position: relative;
+        flex-wrap: wrap;
+        gap: 10px;
+        top: 140px;
+        left: 130px;
+      }
+
+      .icons p{
+        position: relative;
+        top: 100px;
+        left: -220px;
+        font-size: larger;
+        font-weight: 600;
+      }
+
+      .jack{
+        height: 80px;
+        width: 80px;
+        background-color: whitesmoke;
+        border-radius: 50%;
+        border: 0;
+        position: relative;
+       
+      }
+
+      .jack img{
+        position: absolute;
+        color: black;
+        top: 17px;
+        left: 17px;
+        height: 45px;
+        width: 45px;
+        
+
+      }
+
+      iframe{
+        position: relative;
+        top: 300px;
+        left: 300px;
+        width: 155px;
+         height: 877px;
+
+      }
+      .salon h2{
+        text-align: center;
+        font-size: 36px;
+        font-weight: 600;
+        position: relative;
+        top: 430px;
+        
+      }
+
+      .salon p{
+        text-align: center;
+        font-size: 14px;
+        font-weight: 300;
+        position: relative;
+        top: 430px;
+      }
+
+      .iframe-line{
+        width: 69%;
+        margin-left: 310px;
+        color: gray;
+        position: relative;
+        top: 380px;
+        font-size: small;
+      }
+
+      .image-card{
+        display: flex;
+        justify-content: center;
+        align-content: center;
+        align-items: center;
+        flex-wrap: wrap;
+        gap: 20px;
+        position: relative;
+        top: 400px;
+        left: -20px;
+      }
+
+      .image {
+        width: 350px;
+        /* your image width and height here */
+        height: 350px;
+       position: relative;
+       
+      }
+      
+      .image:after {
+        content: '';
+        top: 0;
+        left: 0;
+        bottom: 0;
+        width: 100%;
+        display: inline-block;
+        position: absolute;
+        
+        
+      }
+      
+      .image-hover {
+        width: 350px;
+        height: 350px;
+        opacity: 0;
+        top: 0;
+        left: 0;
+        filter: alpha(opacity=0);
+        display: none;
+        position: absolute;
+        transition: all 0.7s ease-out;
+        
+     }
+
+     .image:hover{
+        cursor: pointer;
+     }
+      
+     /* .image:hover::after {
+        background: rgba(0, 0, 0, .5);
+      }*/
+      
+      .image:hover .image-hover {
+        display:block;
+        opacity: 1;
+        filter: alpha(opacity=50);
+    }
+
+    .image p, .fa-star{
+        font-size: 14px;
+    }
+    .image button{
+        font-size: 16px;
+        font-size: 300;
+        width: 120px;
+        color: white;
+        background-color: black;
+        padding: 12px 12px 12px 12px;
+        border-radius: 10px;
+        border: 0;
+    }
+    button .fa-angle-right{
+        color: white;
+    }
+    .rose{
+        position: relative;
+        top: -3px;
+    }
+
+    .our-word{
+      font-size: 36px;
+      font-weight: 600;
+      position: relative;
+      top: 750px;
+      text-align: center;
+      
+    }
+
+    .laura{
+      height: 236.5px;
+      width: 502.5px;
+      border: 1px solid gainsboro;
+      padding: 32px 32px 32px 32px;
+    }
+
+    .laura p{
+      font-size: 14px;
+      font-weight: 400;
+    }
+    .kirsty{
+      height: 236.5px;
+      width: 502.5px;
+      border: 1px solid gainsboro;
+      padding: 32px 32px 32px 32px;
+    }
+
+    .kirsty p{
+      font-size: 14px;
+      font-weight: 400;
+    }
+    .millie{
+      height: 236.5px;
+      width: 502.5px;
+      border: 1px solid gainsboro;
+      padding: 32px 32px 32px 32px;
+    }
+
+    .millie p{
+      font-size: 14px;
+      font-weight: 400;
+    }
+
+    .testimonials{
+      display: flex;
+      justify-content: center;
+      align-content: center;
+      align-items: center;
+      flex-wrap: wrap;
+      gap: 20px;
+      position: relative;
+      top: 800px;
+    }
+    .hair{
+      font-size: 36px;
+      font-weight: 600;
+      position: relative;
+      top: 850px;
+      text-align: center;
+      
+    }
+
+    .image-line{
+      position: relative;
+      top: 900px;
+      left: 300px;
+    }
+    .one{
+      border-top-left-radius: 10px;
+      border-bottom-left-radius: 10px;
+      
+     height:516px;
+  width: 258px;
+
+    }
+    .three{
+      border-top-left-radius: 10px;
+      border-bottom-left-radius: 10px;
+      height:516px;
+      width: 258px;
+    }
+    .five{
+      border-top-left-radius: 10px;
+      border-bottom-left-radius: 10px;
+      height:516px;
+      width: 258px;
+    }
+    .two{
+      border-top-right-radius: 10px;
+      border-bottom-right-radius: 10px;
+      height:516px;
+      width: 258px;
+    }
+    .four{
+      border-top-right-radius: 10px;
+      border-bottom-right-radius: 10px;
+      height:516px;
+      width: 258px;
+    }
+    .six{
+      border-top-right-radius: 10px;
+      border-bottom-right-radius: 10px;
+      height:516px;
+      width: 258px;
+    }
+    .menubar{
+      height: 35px;
+      width: 50px;
+      background-color: white;
+      padding: 6px;
+      border: 0;
+      position: relative;
+      top: -300px;
+      left: 234px;
+      border-radius: 20px;
+      transform: rotate(90deg);
+    }
+    .menubar .fa-bars{
+      position: relative;
+      left: 12px;
+      top: 0px;
+      cursor: pointer;
+    }
+    .menubar2{
+      height: 35px;
+      width: 50px;
+      background-color: white;
+      padding: 6px;
+      border: 0;
+      position: relative;
+      top: -330px;
+      left: 759px;
+      border-radius: 20px;
+      transform: rotate(90deg);
+    }
+    .menubar2 .fa-bars{
+      position: relative;
+      left: 12px;
+      top: 0px;
+      cursor: pointer;
+    }
+
+    .menubar3{
+      height: 35px;
+      width: 50px;
+      background-color: white;
+      padding: 6px;
+      border: 0;
+      position: relative;
+      top: -360px;
+      left: 1284px;
+      border-radius: 20px;
+      transform: rotate(90deg);
+    }
+    .menubar3 .fa-bars{
+      position: relative;
+      left: 12px;
+      top: 0px;
+      cursor: pointer;
+    }
+
+    .stockist{
+      display: flex;
+      justify-content: center;
+      align-content: center;
+      justify-items: center;
+      flex-wrap: wrap;
+      gap: 20px;
+      position: relative;
+      top: 870px;
+
+    }
+    .comb{
+      height: 400px;
+      width: 709px;
+      background-color: rgb(193, 193, 193);
+      border-radius: 10px;
+      border: 0;
+      z-index: 0;
+    }
+    .comb-one{
+      height: 400px;
+      width: 709px;
+      background-color: rgb(192, 190, 190);
+      border-radius: 10px;
+      border: 0;
+    }
+    .comb img{
+      position: relative;
+      left: 59px;
+      opacity: 0.9;
+      z-index: 0;
+    }
+
+    .comb h2{
+      font-size: 30px;
+      font-weight: 600;
+      position: relative;
+      top: -140px;
+      left: 50px;
+      color:white;
+    }
+    .comb p{
+      font-size: 14px;
+      font-weight: 400;
+      position: relative;
+      top: -120px;
+      left: 50px;
+      color: white;
+      z-index: 1;
+    }
+    .comb-one h2{
+      font-size: 30px;
+      font-weight: 600;
+      position: relative;
+      top: -140px;
+      left: 50px;
+      color:white;
+    }
+    .comb-one p{
+      font-size: 14px;
+      font-weight: 400;
+      position: relative;
+      top: -120px;
+      left: 50px;
+      color: white;
+      z-index: 1;
+    }
+    .comb-one img{
+      opacity: 1.0;
+    }
+
+    .tiktok-embed{
+      position: relative;
+      top: 400px;
+    }
+    .incredilox{
+      font-size: 64px;
+     
+      font-weight: 300;
+      position: relative;
+      top: 930px;
+      
+      
+      text-align: center;
+    }
+
+    .tiktok{
+      position: relative;
+      top: 950px;
+      left: -20px;
+      
+      border: 0;
+
+    }
+
+    .footer{
+      height: 600px;
+      width: 100%;
+      background-color: rgb(238, 238, 238);
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      flex-wrap: wrap;
+      gap: 50px;
+      position: relative;
+      top: 1030px;
+     
+    }
+
+    table, td, th {
+      border: 0;
+    }
+    
+    table {
+      border-collapse: seperate;
+      border-spacing:0.5rem;
+      width: 20%;
+    }
+    td:hover{
+      text-decoration: underline;
+      text-underline-offset: 5px;
+    }
+    
+    th {
+      text-align: left;
+    }
+
+    .information h2{
+      font-size: 14px;
+    }
+    .information p{
+      font-size: 14px;
+      font-weight: 400;
+    }
+
+    .newsletter h2{
+      font-size: 14px;
+    }
+
+    .newsletter p{
+      font-size: 14px;
+      font-weight: 400;
+    }
+    .newsletter button{
+      height: 43px;
+      width: 127px;
+      background-color: black;
+      color: white;
+      font-size: 12px;
+      font-weight: 300;
+      border-radius: 10px;
+      border: 0;
+      position: relative;
+      left: 12px;
+    }
+
+    .input{
+      height: 43px;
+      width: 301px;
+      background-color: rgb(218, 215, 215);
+      border: 0;
+    }
+    .newsletter .input::placeholder{
+      font-size: 14px;
+      position: relative;
+      left: 12px;
+      
+    }
+
+    .footer .information{
+      position: relative;
+      top: -160px;
+      left: 230px;
+    }
+
+    .footer table{
+      position: relative;
+      top: -130px;
+      left: 250px;
+    }
+    .footer .newsletter{
+      position: relative;
+      top: -160px;
+      left: 335px;
+    }
+
+    .nav-link-two img{
+      height: 20px;
+      width: 20px;
+      border-radius: 50%;
+    }
+
+    .nav-link-two{
+      list-style: none;
+        display: flex;
+        flex-wrap: wrap;
+        gap: 10px;
+        position: relative;
+       top: 120px;
+       left: -1260px;
+    }
+
+    .nav-link-two li a{text-decoration: none;
+      color: black;
+    }
+
+    .nav-link-two li a p{
+      font-size: 14px;
+      font-weight: 700;
+    }
+
+    .nav-link-three .fa-instagram{
+      position: relative;
+      left: -570px;
+      top: 105px;
+    }
+
+    .nav-link-three{
+      position: relative;
+      left: 280px;
+
+    }
+    .nav-link-three .fa-tiktok{
+      position: relative;
+      left: -530px;
+      top: 105px;
+    }
+
+    .nav-link-three button{
+      height: 38px;
+      width: 165px;
+      background-color: rgb(88, 42, 214);
+      border-radius: 20px;
+      border: 0;
+      color: white;
+      position: relative;
+      left: -485px;
+      top: 145px;
+    }
+    .fa-heart{
+      font-size: 18px;
+      position: relative;
+      left: -65px;
+      top: 10px;
+    }
+
+    .nav-link-three img{
+      position: relative;
+      left: 46px;
+      top: -38px;
+
+    }
+    .nav-link-three p{
+      position: relative;
+      top: -13px;
+      left:-13px;
+      font-size: 16px;
+      font-weight: 400;
+      font-family:"poppins", 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+
+    }
+
+
+    .footer-line{
+      position: relative;
+      top: 930px;
+      width: 100%;
+      color: rgb(191, 188, 188);
+
+    }
+
+    .footer-logo{
+      display: flex;
+      flex-wrap: wrap;
+      gap: 10px;
+      position: relative;
+      top: 960px;
+      left: 320px;
+      float: left;
+      z-index: 5;
+    }
+
+    .footer-logo p{
+      position: relative;
+      left: 790px;
+      top: 5px;
+      font-size: 14px;
+      color: rgb(154, 151, 151);
+    }
+
+    .amex{
+      border-radius: 3px;
+      position: relative;
+      top: 2px;
+      
+      left: 45px;
+    }
+
+    .maestro{
+      position: relative;
+      top: -9px;
+      left: 20px;
+    }
+    .googlepay{
+      background-color: white;
+      height: 30px;
+      width: 52px;
+      border-radius: 3px;
+      border: 1px solid rgb(203, 199, 199);
+      padding: 5px;
+      position: relative;
+      top: 1px;
+      left: 40px;
+    }
+
+    .applepay{
+      position: relative;
+      top: -9px;
+      left: 43px;
+    }
+
+    .mastercard{
+      background-color: white;
+      height: 31px;
+      width: 49px;
+      border-radius: 3px;
+      border: 1px solid rgb(203, 199, 199);
+      padding: 5px;
+    }
+
+    .paypal{
+      background-color: white;
+      height: 31px;
+      width: 49px;
+      border-radius: 3px;
+      border: 1px solid rgb(203, 199, 199);
+      padding: 5px;
+    }
+
+    .visa{
+      background-color: white;
+      height: 31px;
+      width: 49px;
+      border-radius: 3px;
+      border: 1px solid rgb(203, 199, 199);
+      padding: 5px;
+    }
+
+    .powered{
+      z-index: 5;
+    }
+
+    .sticker{
+        position: fixed;
+        bottom: 20px;
+        right: 20px; 
+        padding: 20px;
+        color: #949494;
+        height: 60px;
+        width: 60px;
+        border-radius: 50%;
+        box-shadow: 2px 2px 2px rgb(169, 169, 169);
+    }
+
+    .fa-comment-dots{
+      color: black;
+      font-size: 30px;
+      height: 30px;
+      position: relative;
+      top: -2px;
+      left: -4px;
+    }
+    
+    
